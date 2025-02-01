@@ -1,9 +1,13 @@
-import React from 'react'
+import React from "react";
+import { withMainData } from "./hoc/with-main-data";
 
-const App = () => {
+const TempApp = () => {
   return (
-    <div>App</div>
-  )
-}
+    <div>
+      <Routes></Routes>
+    </div>
+  );
+};
 
-export default App
+const App = withMainData(TempApp);
+export default App;
