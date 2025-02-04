@@ -1,0 +1,205 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Giga:wght@100..900&display=swap");
+/* @font-face {
+  font-family: "Astetes";
+  src: url("../assets/fonts/Astetes.ttf"), format("ttf");
+}
+
+@font-face {
+  font-family: "Astetes";
+  src: url("../assets/fonts/Astetes.otf"), format("otf");
+} */
+/* .regular_Astetes_16 {
+  @include textStyle("Astetes", 16px);
+} */
+/* .regular_Lexend_Giga_16 {
+  @include textStyle("Lexend Giga", 16px);
+  @extend %regularTextNormal;
+}
+
+.regular_Lexend_Giga_24 {
+  @include textStyle("Lexend Giga", 24px);
+  @extend %regularTextNormal;
+}
+
+.light_Lexend_Giga_24 {
+  @include textStyle("Lexend Giga", 24px);
+  @extend %lightTextNormal;
+}
+ */
+.thin_Lexend_Giga_16 {
+  font-family: "Lexend Giga", sans-serif;
+  font-size: 16px;
+}
+
+.light_Lexend_Giga_16 {
+  font-family: "Lexend Giga", sans-serif;
+  font-size: 16px;
+}
+
+.light_Lexend_Giga_24 {
+  font-family: "Lexend Giga", sans-serif;
+  font-size: 24px;
+}
+
+.textDecorationNone {
+  text-decoration: none;
+}
+
+.textDecorationUnderline {
+  text-decoration: underline;
+}
+
+.textAlignCenter {
+  text-align: center;
+}
+
+.textAlignLeft {
+  text-align: left;
+}
+
+.thin_Lexend_Giga_16 {
+  font-style: normal !important;
+  font-weight: 300 !important;
+}
+
+.light_Lexend_Giga_16, .light_Lexend_Giga_24 {
+  font-style: normal !important;
+  font-weight: 400 !important;
+}
+
+.displayFlexAlignItemsEnd, .displayFlex, .alignItemsCenter, .alignItemsEnd, .displayColumn, .displayColumnAlignItemsCenter, .displayColumnBetween, .displayRow, .displayRowJustifyEnd, .displayRowBetween {
+  display: flex;
+}
+
+.displayRow, .displayRowJustifyEnd, .displayRowBetween {
+  flex-direction: row;
+}
+
+.displayColumn, .displayColumnAlignItemsCenter, .displayColumnBetween {
+  flex-direction: column;
+}
+
+.displayRowBetween {
+  justify-content: space-between;
+}
+
+.displayColumnBetween {
+  justify-content: space-between;
+}
+
+.displayFlexAlignItemsEnd, .alignItemsEnd {
+  align-items: flex-end;
+}
+
+.alignItemsCenter {
+  align-items: center;
+}
+
+.displayColumnAlignItemsCenter {
+  align-items: center;
+}
+
+.displayRowJustifyEnd {
+  justify-content: flex-end;
+}
+
+.boxSizingBorderBox {
+  box-sizing: border-box;
+}
+
+.backgroundColorTransparent {
+  background-color: transparent;
+}
+
+.colorDark {
+  color: #2a2a2a;
+}
+
+.gap_16 {
+  gap: 16px;
+}
+
+.gap_24 {
+  gap: 24px;
+}
+
+.gap_32 {
+  gap: 32px;
+}
+
+.gap_90 {
+  gap: 90px;
+}
+
+.allSquareBrowserSize {
+  width: 100%;
+  height: 100%;
+}
+
+.navigation {
+  position: fixed;
+  display: grid;
+  grid-template-columns: 1fr 66px;
+  grid-template-rows: auto 1fr;
+  height: 100vh;
+  width: 100vw;
+}
+.navigation .top-nav {
+  grid-column: 1/2;
+  width: 100%;
+  background: #fbfbf9;
+  padding: 40px;
+}
+.navigation .side-nav {
+  grid-row: 1/3;
+  grid-column: 2/3;
+  background: #fbfbf9;
+  width: 100%;
+  height: 100vh;
+  padding: 20px;
+  border-left: 1px solid #cdcdc9;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.containerSocialSide {
+  margin-top: 0;
+  display: flex;
+  justify-content: center; /* Centra el contenido */
+  align-items: flex-end; /* Alinea los enlaces al fondo */
+  width: 1em;
+  height: 10em;
+}
+
+.containerSocialSide a {
+  box-sizing: border-box;
+  height: 1em;
+  transform: rotate(90deg);
+  display: block;
+  white-space: nowrap;
+}
+
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden !important;
+  height: 100%;
+  font-family: "Lexend Giga", serif;
+  background-color: #fbfbf9 !important;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+span {
+  text-rendering: optimizeLegibility !important;
+  -webkit-font-smoothing: antialiased;
+}/*# sourceMappingURL=styles.css.map */

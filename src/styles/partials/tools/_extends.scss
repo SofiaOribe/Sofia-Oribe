@@ -1,0 +1,65 @@
+%lightTextNormal {
+  font-style: normal !important;
+  font-weight: 300 !important;
+}
+
+%regularTextNormal {
+  font-style: normal !important;
+  font-weight: 400 !important;
+}
+
+%semiBoldTextNormal {
+  font-style: normal !important;
+  font-weight: 500 !important;
+}
+
+%boldTextNormal {
+  font-style: normal !important;
+  font-weight: 600 !important;
+}
+
+// Positions
+
+%displayFlex {
+  display: flex;
+}
+
+%displayRow {
+  @extend %displayFlex;
+  flex-direction: row;
+}
+
+%displayColumn {
+  @extend %displayFlex;
+  flex-direction: column;
+}
+
+%displayRowBetween {
+  @extend %displayRow;
+  justify-content: space-between;
+}
+
+%displayColumnBetween {
+  @extend %displayColumn;
+  justify-content: space-between;
+}
+
+%displayAlignItemsEnd {
+  @extend %displayFlex;
+  align-items: flex-end;
+}
+
+%displayAlignItemsCenter {
+  @extend %displayFlex;
+  align-items: center;
+}
+
+%displayColumnAlignItemsCenter {
+  @extend %displayColumn;
+  align-items: center;
+}
+
+%displayRowJustifyEnd {
+  @extend %displayRow;
+  justify-content: flex-end;
+}

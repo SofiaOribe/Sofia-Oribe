@@ -1,0 +1,82 @@
+.boxSizingBorderBox {
+  box-sizing: border-box;
+}
+
+// Background Color
+
+.backgroundColorTransparent {
+  background-color: transparent;
+}
+
+// Colors
+
+.colorDark {
+  color: $dark;
+}
+
+// Positions
+
+.displayFlex {
+  @extend %displayFlex;
+}
+
+.displayRow {
+  @extend %displayRow;
+}
+.displayColumn {
+  @extend %displayColumn;
+}
+
+.displayRowBetween {
+  @extend %displayRowBetween;
+}
+
+.displayColumnBetween {
+  @extend %displayColumnBetween;
+}
+
+.alignItemsCenter {
+  @extend %displayAlignItemsCenter;
+}
+
+.alignItemsEnd {
+  @extend %displayAlignItemsEnd;
+}
+
+.displayFlexAlignItemsEnd {
+  @extend %displayFlex;
+  @extend %displayAlignItemsEnd;
+}
+
+.displayColumnAlignItemsCenter {
+  @extend %displayColumnAlignItemsCenter;
+}
+
+.displayRowJustifyEnd {
+  @extend %displayRowJustifyEnd;
+}
+
+// Gap
+
+.gap_16 {
+  gap: 16px;
+}
+
+.gap_24 {
+  gap: 24px;
+}
+
+.gap_32 {
+  gap: 32px;
+}
+
+.gap_90 {
+  gap: 90px;
+}
+
+// Width and Height size
+
+.allSquareBrowserSize {
+  width: 100%;
+  height: 100%;
+}

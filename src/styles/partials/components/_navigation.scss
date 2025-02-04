@@ -1,0 +1,45 @@
+.navigation {
+  position: fixed;
+  display: grid;
+  grid-template-columns: 1fr 66px;
+  grid-template-rows: auto 1fr;
+  height: 100vh;
+  width: 100vw;
+
+  .top-nav {
+    grid-column: 1 / 2;
+    width: 100%;
+    background: $light;
+    padding: 40px;
+  }
+
+  .side-nav {
+    grid-row: 1 / 3;
+    grid-column: 2 / 3;
+    background: $light;
+    width: 100%;
+    height: 100vh;
+    padding: 20px;
+    border-left: 1px solid $gray-light;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+  }
+}
+
+.containerSocialSide {
+  margin-top: 0;
+  display: flex;
+  justify-content: center; /* Centra el contenido */
+  align-items: flex-end; /* Alinea los enlaces al fondo */
+  width: 1em;
+  height: 10em;
+}
+
+.containerSocialSide a {
+  box-sizing: border-box;
+  height: 1em;
+  transform: rotate(90deg);
+  display: block;
+  white-space: nowrap;
+}

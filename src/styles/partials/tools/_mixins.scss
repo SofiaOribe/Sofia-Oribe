@@ -1,0 +1,5 @@
+@mixin textStyle($fontFamily, $fontSize, $color: $dark) {
+  color: $color;
+  font-family: $fontFamily !important;
+  font-size: $fontSize !important;
+}

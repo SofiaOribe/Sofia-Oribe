@@ -1,0 +1,71 @@
+/* @font-face {
+  font-family: "Astetes";
+  src: url("../assets/fonts/Astetes.ttf"), format("ttf");
+}
+
+@font-face {
+  font-family: "Astetes";
+  src: url("../assets/fonts/Astetes.otf"), format("otf");
+} */
+
+// Astetes
+
+/* .regular_Astetes_16 {
+  @include textStyle("Astetes", 16px);
+} */
+
+// Lexend Giga
+
+/* .regular_Lexend_Giga_16 {
+  @include textStyle("Lexend Giga", 16px);
+  @extend %regularTextNormal;
+}
+
+.regular_Lexend_Giga_24 {
+  @include textStyle("Lexend Giga", 24px);
+  @extend %regularTextNormal;
+}
+
+.light_Lexend_Giga_24 {
+  @include textStyle("Lexend Giga", 24px);
+  @extend %lightTextNormal;
+}
+ */
+
+.thin_Lexend_Giga_16 {
+  font-family: "Lexend Giga", sans-serif;
+  font-size: 16px;
+  @extend %lightTextNormal;
+}
+
+.light_Lexend_Giga_16 {
+  font-family: "Lexend Giga", sans-serif;
+  font-size: 16px;
+  @extend %regularTextNormal;
+}
+
+.light_Lexend_Giga_24 {
+  font-family: "Lexend Giga", sans-serif;
+  font-size: 24px;
+  @extend %regularTextNormal;
+}
+
+// Text Decortation
+
+.textDecorationNone {
+  text-decoration: none;
+}
+
+.textDecorationUnderline {
+  text-decoration: underline;
+}
+
+// Text Align
+
+.textAlignCenter {
+  text-align: center;
+}
+
+.textAlignLeft {
+  text-align: left;
+}

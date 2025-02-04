@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Giga:wght@100..900&display=swap");
+
+@import "./partials/tools/mixins";
+@import "./partials/tools/fonts";
+@import "./partials/tools/variables";
+@import "./partials/tools/extends";
+@import "./partials/tools/utilities";
+@import "./partials/components/home";
+@import "./partials/components/navigation";
+
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden !important;
+  height: 100%;
+  font-family: "Lexend Giga", serif;
+  background-color: #fbfbf9 !important;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+span {
+  text-rendering: optimizeLegibility !important;
+  -webkit-font-smoothing: antialiased;
+}
